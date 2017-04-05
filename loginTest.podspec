@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Cl870618/loginTest.git", :tag => "0.0.1" }
 
   s.requires_arc = true
-  
-  s.source_files  = "loginTest/Classes/**/*.{h,m}"
+
+  s.source_files  = "loginTest/*.{h,m}"
 
 end
