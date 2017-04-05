@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.version      = "0.0.1"
 
-  s.summary      = "all kinds of categories for iOS develop"
+  s.summary      = "一个建立pod 仓库的简单demo"
 
 
   s.homepage     = "https://github.com/Cl870618/loginTest"
