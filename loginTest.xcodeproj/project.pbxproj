@@ -16,6 +16,8 @@
 		6818CCF71E94717C00CF757D /* loginTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CCF61E94717C00CF757D /* loginTestTests.m */; };
 		6818CD021E94717C00CF757D /* loginTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CD011E94717C00CF757D /* loginTestUITests.m */; };
 		6818CD111E9471B600CF757D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CD101E9471B600CF757D /* LoginView.m */; };
+		684C66781E94B92B008BEB85 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C66771E94B92B008BEB85 /* DrawingView.m */; };
+		684C667B1E94CA88008BEB85 /* PenTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C667A1E94CA88008BEB85 /* PenTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		6818CD031E94717C00CF757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6818CD0F1E9471B600CF757D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		6818CD101E9471B600CF757D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		684C66761E94B92B008BEB85 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		684C66771E94B92B008BEB85 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		684C66791E94CA88008BEB85 /* PenTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenTools.h; sourceTree = "<group>"; };
+		684C667A1E94CA88008BEB85 /* PenTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				6818CCE01E94717C00CF757D /* AppDelegate.m */,
 				6818CCE21E94717C00CF757D /* ViewController.h */,
 				6818CCE31E94717C00CF757D /* ViewController.m */,
+				684C66761E94B92B008BEB85 /* DrawingView.h */,
+				684C66771E94B92B008BEB85 /* DrawingView.m */,
+				684C66791E94CA88008BEB85 /* PenTools.h */,
+				684C667A1E94CA88008BEB85 /* PenTools.m */,
 				6818CD0F1E9471B600CF757D /* LoginView.h */,
 				6818CD101E9471B600CF757D /* LoginView.m */,
 				6818CCE51E94717C00CF757D /* Main.storyboard */,
@@ -282,8 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6818CCE41E94717C00CF757D /* ViewController.m in Sources */,
+				684C667B1E94CA88008BEB85 /* PenTools.m in Sources */,
 				6818CCE11E94717C00CF757D /* AppDelegate.m in Sources */,
 				6818CD111E9471B600CF757D /* LoginView.m in Sources */,
+				684C66781E94B92B008BEB85 /* DrawingView.m in Sources */,
 				6818CCDE1E94717C00CF757D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +534,7 @@
 				6818CD081E94717C00CF757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6818CD091E94717C00CF757D /* Build configuration list for PBXNativeTarget "loginTestTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +543,7 @@
 				6818CD0B1E94717C00CF757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6818CD0C1E94717C00CF757D /* Build configuration list for PBXNativeTarget "loginTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +552,7 @@
 				6818CD0E1E94717C00CF757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
