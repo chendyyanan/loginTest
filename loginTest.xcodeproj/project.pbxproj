@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68122C511E965A15003760F7 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68122C501E965A15003760F7 /* TestView.m */; };
+		68122C541E96618A003760F7 /* UIColor+BIDRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 68122C531E96618A003760F7 /* UIColor+BIDRandom.m */; };
 		6818CCDE1E94717C00CF757D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CCDD1E94717C00CF757D /* main.m */; };
 		6818CCE11E94717C00CF757D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CCE01E94717C00CF757D /* AppDelegate.m */; };
 		6818CCE41E94717C00CF757D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CCE31E94717C00CF757D /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68122C4F1E965A15003760F7 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		68122C501E965A15003760F7 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		68122C521E96618A003760F7 /* UIColor+BIDRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BIDRandom.h"; sourceTree = "<group>"; };
+		68122C531E96618A003760F7 /* UIColor+BIDRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BIDRandom.m"; sourceTree = "<group>"; };
 		6818CCD91E94717C00CF757D /* loginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6818CCDD1E94717C00CF757D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6818CCDF1E94717C00CF757D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 		684C66771E94B92B008BEB85 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 		684C66791E94CA88008BEB85 /* PenTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenTools.h; sourceTree = "<group>"; };
 		684C667A1E94CA88008BEB85 /* PenTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenTools.m; sourceTree = "<group>"; };
+		6857B4DB1E9691220080D76E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +121,17 @@
 				6818CCE01E94717C00CF757D /* AppDelegate.m */,
 				6818CCE21E94717C00CF757D /* ViewController.h */,
 				6818CCE31E94717C00CF757D /* ViewController.m */,
+				68122C4F1E965A15003760F7 /* TestView.h */,
+				68122C501E965A15003760F7 /* TestView.m */,
 				684C66761E94B92B008BEB85 /* DrawingView.h */,
 				684C66771E94B92B008BEB85 /* DrawingView.m */,
+				68122C521E96618A003760F7 /* UIColor+BIDRandom.h */,
+				68122C531E96618A003760F7 /* UIColor+BIDRandom.m */,
 				684C66791E94CA88008BEB85 /* PenTools.h */,
 				684C667A1E94CA88008BEB85 /* PenTools.m */,
 				6818CD0F1E9471B600CF757D /* LoginView.h */,
 				6818CD101E9471B600CF757D /* LoginView.m */,
+				6857B4DB1E9691220080D76E /* Constants.h */,
 				6818CCE51E94717C00CF757D /* Main.storyboard */,
 				6818CCE81E94717C00CF757D /* Assets.xcassets */,
 				6818CCEA1E94717C00CF757D /* LaunchScreen.storyboard */,
@@ -291,11 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68122C511E965A15003760F7 /* TestView.m in Sources */,
 				6818CCE41E94717C00CF757D /* ViewController.m in Sources */,
 				684C667B1E94CA88008BEB85 /* PenTools.m in Sources */,
 				6818CCE11E94717C00CF757D /* AppDelegate.m in Sources */,
 				6818CD111E9471B600CF757D /* LoginView.m in Sources */,
 				684C66781E94B92B008BEB85 /* DrawingView.m in Sources */,
+				68122C541E96618A003760F7 /* UIColor+BIDRandom.m in Sources */,
 				6818CCDE1E94717C00CF757D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,8 @@
 #import "ViewController.h"
 //#import "LoginView.h"
 #import "DrawingView.h"
+#import "UIColor+BIDRandom.h"
+#import "TestView.h"
 
 @interface ViewController ()
 {
@@ -20,6 +22,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    TestView *testV = [[TestView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64)];
+    testV.backgroundColor = [UIColor randomColor];
+    [self.view addSubview:testV];
+    
+    return;
     
     drawing = [[DrawingView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64)];
     drawing.backgroundColor = [UIColor orangeColor];
