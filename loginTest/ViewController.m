@@ -27,6 +27,9 @@
     testV.backgroundColor = [UIColor randomColor];
     [self.view addSubview:testV];
     
+    
+    //测试
+    
     return;
     
     drawing = [[DrawingView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64)];
