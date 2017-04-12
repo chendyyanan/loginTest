@@ -12,6 +12,7 @@
 #import "UIColor+BIDRandom.h"
 #import "TestView.h"
 
+
 @interface ViewController ()
 {
     DrawingView *drawing;
