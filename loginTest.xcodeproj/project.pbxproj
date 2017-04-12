@@ -18,6 +18,7 @@
 		6818CCF71E94717C00CF757D /* loginTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CCF61E94717C00CF757D /* loginTestTests.m */; };
 		6818CD021E94717C00CF757D /* loginTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CD011E94717C00CF757D /* loginTestUITests.m */; };
 		6818CD111E9471B600CF757D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818CD101E9471B600CF757D /* LoginView.m */; };
+		68426A491E9E3B28007400F9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 68426A481E9E3B28007400F9 /* Person.m */; };
 		684C66781E94B92B008BEB85 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C66771E94B92B008BEB85 /* DrawingView.m */; };
 		684C667B1E94CA88008BEB85 /* PenTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C667A1E94CA88008BEB85 /* PenTools.m */; };
 		F6E9062DBBD94D521D7C96A4 /* Pods_loginTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B695B36F55ECB53BC49842EB /* Pods_loginTest.framework */; };
@@ -63,6 +64,8 @@
 		6818CD031E94717C00CF757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6818CD0F1E9471B600CF757D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		6818CD101E9471B600CF757D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		68426A471E9E3B28007400F9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		68426A481E9E3B28007400F9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		684C66761E94B92B008BEB85 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
 		684C66771E94B92B008BEB85 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 		684C66791E94CA88008BEB85 /* PenTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenTools.h; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				6818CCEA1E94717C00CF757D /* LaunchScreen.storyboard */,
 				6818CCED1E94717C00CF757D /* Info.plist */,
 				6818CCDC1E94717C00CF757D /* Supporting Files */,
+				68426A471E9E3B28007400F9 /* Person.h */,
+				68426A481E9E3B28007400F9 /* Person.m */,
 			);
 			path = loginTest;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				6818CCE11E94717C00CF757D /* AppDelegate.m in Sources */,
 				6818CD111E9471B600CF757D /* LoginView.m in Sources */,
 				684C66781E94B92B008BEB85 /* DrawingView.m in Sources */,
+				68426A491E9E3B28007400F9 /* Person.m in Sources */,
 				68122C541E96618A003760F7 /* UIColor+BIDRandom.m in Sources */,
 				6818CCDE1E94717C00CF757D /* main.m in Sources */,
 			);
