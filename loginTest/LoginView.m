@@ -11,11 +11,6 @@
 @interface LoginView ()
 
 
-
-
-
-
-
 @end
 
 @implementation LoginView{
