@@ -28,7 +28,7 @@
     [self.view addSubview:testV];
     
     
-    //测试
+    //测试 pull
     
     return;
     
