@@ -14,10 +14,6 @@
 - (void)clearup;
 @property (nonatomic, strong)UIColor *color;
 
-
-
-
-
 //分支
 
 
